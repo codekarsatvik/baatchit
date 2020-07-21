@@ -1,0 +1,98 @@
+body{
+  background-image: url('bg1.jpg');
+}
+.logo{
+  /* display: block;
+  margin: auto; */
+  text-align: center;
+  /* display: inline; */
+
+}
+.head{
+  display: inline;
+  color: White;
+  font-style: italic;
+  padding: 10px;
+  font-weight: bolder;
+}
+.logoimage{
+  width: 150px;
+  height: 150px;
+}
+.chatbox{
+  padding: 10px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  background-color: lightblue;
+  max-width: 80%;
+  height: 70vh;
+  border-radius: 10px;
+  scroll-behavior: smooth;
+  overflow-y: scroll;
+  opacity: 0.8;
+  /* overflow: scroll; */
+
+
+}
+.message{
+  background-color: #f5f1da;
+  padding: 10px;
+  border-radius: 12px;
+  display: inline-block;
+  margin: 10px;
+  max-width: 60%;
+  opacity: 1;
+}
+.left{
+  float: left;
+  clear: both;
+}
+.right{
+  float: right;
+  clear: both;
+}
+.middle{
+  float:inherit;
+  display:block;
+  text-align: center;
+  clear: both;
+margin-top: 50px;
+  background-color: blue;
+  border-radius: 25px;
+  color: white;
+  max-width: none;
+}
+#send-form{
+  text-align: center;
+}
+#messageinp{
+  width: 74%;
+  height: 70px;
+  border: none;
+  /* backface-visibility: hidden; */
+
+  border: solid RoyalBlue 4px;
+  font-size: 40px;
+  border-radius: 25px;
+}
+.btnn {
+  background-color: RoyalBlue; /* Blue background */
+  border: none; /* Remove borders */
+  /* color: green; /* White text */
+  /* padding: 50px 10px; /* Some padding */
+  height: 60px;
+  width:  60px;
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  border-radius: 50%;
+}
+
+/* Darker background on mouse-over */
+.btnn:hover {
+  background-color: RoyalBlue;
+}
+/* button{
+  cursor: pointer;
+  height: 34px;
+} */
