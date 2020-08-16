@@ -1,5 +1,5 @@
 var audio = new Audio('js/ting.mp3');
-const socket = io('http://localhost:8000');
+const socket = io('https://baatcheetit.herokuapp.com/');
 audio.play();
 
 
